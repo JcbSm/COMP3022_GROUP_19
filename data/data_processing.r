@@ -25,7 +25,7 @@ df <- df %>%
     shake_intensity,
   )
 
-# Sort dataset by location, then date, then timestamp
+# Sort dataset by location, then date, then timestamp to ensure proper ordering
 df <- df %>%
   arrange(location, date, timestamp)
 
